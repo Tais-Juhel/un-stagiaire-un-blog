@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 30px;
+}
+
+#pres {
+  height: 80vh;
+  font-weight: lighter;
+  text-align: center;
+  background: url(../img/applePC.jpg);
+  background-size: 100%;
+}
+
+#pers img {
+  color: red;
+}
+
+#profPres {
+  position: relative;
+  color: white;
+  text-align: left;
+}
+
+#svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  fill: lightgray;
+  width: 100%;
+  height: 50px;
+}
+
+#svg #aPropos {
+  color: lightgray;
+  margin-right: 10vh;
+}
+
+#cadre {
+  display: inline-block;
+  margin-left: 20%;
+  border: solid 2px white;
+  padding: 2%;
+}
+
+#cadre p {
+  margin: 0;
+  margin-bottom: 8%;
+  font-size: 60px;
+  height: 50px;
+  font-weight: 800;
+}
+
+#info {
+  text-align: center;
+  position: absolute;
+  left: 55%;
+  top: 60%;
+}
+
+#info #name {
+  font-size: 60px;
+}
+
+article {
+  padding: 15vh 0;
+  text-align: justify;
+}
+
+article h2 {
+  margin: 7vh 7vw;
+  color: #B38A4C;
+  font-size: 60px;
+}
+
+article p {
+  margin: 0 auto;
+  padding: 2vh 0;
+  font-size: 20px;
+  color: #707070;
+  width: 75%;
+}
+
+article .firstP {
+  padding-top: 7vh;
+}
+
+article .lastP {
+  padding-bottom: 7vh;
+}
+
+.impair {
+  background-color: #FAF5F5;
+}
+
+.impair h2 {
+  text-align: right;
+}
+
+#exp {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: #FAF5F5;
+  height: 70px;
+}
+
+#exp a {
+  color: #B38A4C;
+  font-weight: 600;
+}
+
+#exp a.ongletChoix1::after {
+  position: absolute;
+  content: ' ';
+  width: 100px;
+  height: 3px;
+  background-color: #B38A4C;
+  bottom: 0;
+  left: calc(25% - 50px);
+}
+
+#exp a.ongletChoix2::after {
+  position: absolute;
+  content: ' ';
+  width: 100px;
+  height: 3px;
+  background-color: #B38A4C;
+  bottom: 0;
+  left: calc(75% - 50px);
+}
+/*# sourceMappingURL=blog.css.map */

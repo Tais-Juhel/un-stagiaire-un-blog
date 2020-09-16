@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 10vh 0;
+}
+
+section #profil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section #profil #cadrePhoto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+section #profil #cadrePhoto img {
+  width: 400px;
+}
+
+section #profil #info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+  height: 300px;
+}
+
+section #profil #info #nameAge {
+  font-size: 65px;
+}
+
+section #profil #info #etud {
+  font-size: 18px;
+  margin: 10px 30px;
+}
+
+section input {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  width: 350px;
+  height: 70px;
+  border: none;
+  background-color: #B38A4C;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+article {
+  padding: 15vh 0;
+  text-align: center;
+  background-color: #FAF5F5;
+}
+
+article h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+article h2 {
+  padding: 10vh 0;
+  font-size: 40px;
+  color: #B38A4C;
+}
+
+article p {
+  width: 75%;
+  margin: auto;
+  padding-bottom: 10vh;
+}
+
+article input {
+  font-size: 18px;
+  width: 210px;
+  height: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  background-color: transparent;
+  border: solid black 2px;
+  cursor: pointer;
+  outline: none;
+}
+
+article input:hover {
+  border-color: #B38A4C;
+  color: #B38A4C;
+}
+
+#telechargement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 7vw 0 2vw 0;
+}
+/*# sourceMappingURL=profil.css.map */

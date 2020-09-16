@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+section{
+    padding: 10vh 0;
+
+    #profil{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        #cadrePhoto{
+            display: flex;
+            justify-content: center;
+            width: 300px;
+            height: 300px;
+            overflow: hidden;
+            border-radius: 100%;
+
+            img{
+                width: 400px;
+            }
+        }
+
+        #info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+            height: 300px;
+    
+            #nameAge{
+                font-size: 65px;
+            }
+    
+            #etud{
+                font-size: 18px;
+                margin: 10px 30px;
+            }
+        }
+    }
+}
+section input{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    width: 350px;
+    height: 70px;
+    border: none;
+    background-color: #B38A4C;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+article{
+    padding: 15vh 0;
+    text-align: center;
+    background-color: #FAF5F5;
+}
+article h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+article h2{
+    padding: 10vh 0;
+    font-size: 40px;
+    color: #B38A4C;
+}
+article p{
+    width: 75%;
+    margin: auto;
+    padding-bottom: 10vh;
+}
+article input{
+    font-size: 18px;
+    width: 210px;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: transparent;
+    border: solid black 2px;
+    cursor: pointer;
+    outline: none;
+}
+article input:hover{
+    border-color: #B38A4C;
+    color: #B38A4C;
+}
+
+#telechargement{
+    display: flex;
+    justify-content: center;
+    padding: 7vw 0 2vw 0;
+}
