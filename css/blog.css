@@ -144,6 +144,12 @@ article h2 {
   }
 }
 
+@media screen and (max-width: 780px) {
+  article h2 {
+    font-size: 32px;
+  }
+}
+
 article p {
   margin: 0 auto;
   padding: 2vh 0;
