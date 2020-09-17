@@ -9,7 +9,24 @@ a {
 }
 
 section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 10vh 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 530px) {
+  section {
+    padding: 40px 0;
+  }
 }
 
 section #profil {
@@ -21,6 +38,15 @@ section #profil {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  section #profil {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 section #profil #cadrePhoto {
@@ -62,6 +88,26 @@ section #profil #info #nameAge {
 section #profil #info #etud {
   font-size: 18px;
   margin: 10px 30px;
+}
+
+@media screen and (max-width: 780px) {
+  section #profil #info #nameAge, section #profil #info #etud {
+    text-align: center;
+  }
+  section #profil #info #nameAge {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  section #profil #info {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section #profil #info #nameAge, section #profil #info #etud {
+    width: 360px;
+  }
 }
 
 section input {
